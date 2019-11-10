@@ -105,13 +105,13 @@ void ex21(){
     string sentence;
     getline(cin,sentence);
 
-    // petle zmieniaj¹ca wszystkie znaki w zdaniu na ma³e
+    // petle zmieniajÂ¹ca wszystkie znaki w zdaniu na maÂ³e
     for (int i = 0; i < sentence.length() ; i++) {
         sentence[i] = tolower(sentence[i]);
     }
-    // zmiana pierwszego znaku na wielk¹ literê
+    // zmiana pierwszego znaku na wielkÂ¹ literÃª
     sentence[0] = toupper(sentence[0]);
-    // sprawdzenie czy jest kropka -> jeœli nie to dodanie . do zdania
+    // sprawdzenie czy jest kropka -> jeÅ“li nie to dodanie . do zdania
     if(sentence[sentence.length()-1] != '.'){
        sentence += ".";
     }
@@ -136,7 +136,7 @@ for (int j = 0; j<= index; j++){
 }
 
 }
-// funkcja przyjmuje dwa argumenty i zwraca wynik dzia³ania
+// funkcja przyjmuje dwa argumenty i zwraca wynik dziaÂ³ania
 double addNumbers(double num1, double num2){
     double result = num1 + num2;
     return result;
@@ -229,4 +229,5 @@ int main() {
 }
 
 
-...
+... ooooo
+
