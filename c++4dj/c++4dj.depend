@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1573389500 source:c:\users\mdgroup6\desktop\c++4dj\main.cpp
+	<iostream>
+	<string>
+	<cmath>
+	<cstdlib>
+	"time.h"
+
